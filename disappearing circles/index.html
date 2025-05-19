@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=200", initial-scale="1.0">
+    <title>disappearing circles</title>
+    <style>
+        .cricle{
+            height: 130px;
+            width: 130px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 50px;
+
+
+        }
+        #pink{
+            background-color: pink;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #purple{
+            background-color: purple;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cricle" id="pink"></div>
+    <div class="cricle"  id="blue"></div>
+    <div class="cricle" id="purple"></div>
+    <script>
+        document.getElementById("pink").onclick= function(){
+            document.getElementById("pink").style.display="none";
+        }
+        document.getElementById("blue").onclick= function(){
+            document.getElementById("blue").style.display="none";
+        }
+        document.getElementById("purple").onclick= function(){
+            document.getElementById("purple").style.display="none";
+        }
+    </script>
+
+    
+</body>
+</html>

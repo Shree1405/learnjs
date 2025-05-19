@@ -23,17 +23,17 @@ text-align: center;
   width:90%;
 }
 h1{
-    colour:rgba(255, 255, 255, 0.884);
+    color:rgba(255, 255, 255, 0.884);
     font-weight: 700;
 
 }
 p{
     margin: 10px o;
-    colour:rgba(255, 255, 255, 0.893);
+    color:rgba(255, 255, 255, 0.893);
 }
 button{
     background-color: blueviolet;
-    colour:aqua;
+    color:aqua;
     border: none;
     padding: 12px 20px;
     font-size: 16px;
